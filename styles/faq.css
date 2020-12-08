@@ -3,6 +3,18 @@ body {
 }
 
 /* css code for nav bar */
+
+.heading1{
+    width: 100%;
+    margin-top:8%;
+    margin-left: 45%;
+    margin-right:0%;
+    margin-top: 0%;
+    background-color: black;
+    color: white;
+    /* padding-left: 250px; */
+}
+
 #section1 .sc1 {
     height: 700px;
     width: 80%;
@@ -79,7 +91,7 @@ li a:hover:not(.active) {
     background-repeat: no-repeat;
     background-size: cover;
     left: 200px;
-    top:150px;
+    top:9px;
     position: relative;
    
 }
@@ -139,8 +151,9 @@ li a:hover:not(.active) {
     display: block;
 }
 /* css code for faq */
+
 .mycontent{
-    padding-left:207px ;
+    padding-left:80px ;
     padding-top:50px ;
 }
 
@@ -178,10 +191,11 @@ li a:hover:not(.active) {
 
 main {
     background-color: rgba(245, 242, 196, 0.979);
-    width: 120%;
-    height: 53em;
+    width: 80%;
+    height: 101em;
     margin-top: 5em;
-    margin-left: 10px;
+    margin-left: 230px;
+    
 }
 .heading{
     
@@ -190,6 +204,47 @@ main {
     margin-left: 450px;
     color:black;
 }
+
+/* css code for accordian */
+
+.accordion {
+ 
+    background-color:  rgba(61, 57, 57, 0.986);
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 88%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  .accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: rgba(136, 216, 17, 0.562);
+    max-height: 0;
+    width: 84.5%;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
 
 /* mobile view */
 @media only screen and (max-width: 767px) {
