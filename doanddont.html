@@ -28,6 +28,12 @@
             <a href="#search bar"><i class="fas fa-search"></i></a>
             <a href="#login">LOGIN<i class="fas fa-user-circle"></i></a>
         </div>
+
+         <!-- website heading -->
+         <div class="heading1">
+            <h4>CORONA &nbsp;HELP DESK</h4>
+        </div>
+
     </nav><br><br>
 
     <!--vertical navbar-->
@@ -70,8 +76,13 @@
                         <li>Seek medical help if you’re suffering from a fever, cough or difficulty breathing</li>
                         <li>Limit contact with pets and animals.</li>
                     </ul>
-                    <img src="images/a.jpg " height="260px" width="50%" style="padding-left: 20%;"></br>
-
+                   
+                    <div style="max-width:300px">
+                      <img class="mySlides" src="images/dodont1.jpg" style="width:100%">
+                      <img class="mySlides" src="images/dodont2.jpg" style="width:100%">
+                      <img class="mySlides" src="images/dodont3.jpg" style="width:100%">
+                    </div>
+  
                     <b style="font-size: 30px; color:  rgb(252, 38, 38);">Coronavirus Prevention Don’ts</b>
                     <p style="font-size: 18px;">Make sure you take the precautions to avoid doing each of these things to help prevent the spread of the disease:</p>
                     <ul class="dont">
@@ -151,6 +162,23 @@
         <!--main end-->
     </div>
     <!--wrapper end-->
+    <script>
+ var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000); // Change image every 2 seconds
+}
+
+    </script>
 
 </body>
 
