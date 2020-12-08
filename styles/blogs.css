@@ -1,6 +1,7 @@
+/*styling for body */
 body {
     margin: 0;
-    background-image: url(/images/background.jpg);
+    background-image: url(../images/background.jpg);
     background-repeat: repeat;   
 }
 
@@ -166,8 +167,6 @@ main h1 {
     color: maroon;
 }
 
-
-
 #articleheading{
     margin-left: 20px;
     padding-top: 10px;
@@ -176,7 +175,6 @@ main h1 {
     height: 40px;
     text-align: center;
 }
-
 
 .articleimg {
     width: 100%;
@@ -192,8 +190,6 @@ main h1 {
     margin-bottom: 20px;
 }
 
-
-
 .div2{
     float: left;
     width: 60%;
@@ -206,7 +202,6 @@ main h1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
 
 /*styling for next and previous*/
 #b1next {
@@ -247,20 +242,19 @@ main h1 {
     background-color: rgba(61, 57, 57, 0.986);
     padding: .5px;
     border-radius: 4px;
-  
-  }
+}
   
   #myBtn a{
     color: burlywood;
     text-decoration: none;
     font-size: 15px;
     font-weight: bold;
-  }
+}
   
   /*On Hover Color Change*/
   #myBtn:hover {
     background-color: #c70039;
-  }
+}
   
 
 /* styling for footer*/
@@ -269,15 +263,14 @@ main h1 {
     width: 88.1%;
     margin-left: 180px;
 }
+
 footer{
 	display:flex;
 	padding-top:20px;
 	flex-wrap:wrap;
 }
 
-
 .footer1{
-    
 	flex:2;
 }
 
@@ -376,11 +369,11 @@ padding-left:10px;
     }
    
     #navul {
-        width: 125%;
+        width: 149.5%;
         height: fit-content;
         text-align: center;
         position: sticky;
-        margin-top: 93px;
+        margin-top: 110px;
         margin-left: 0%;
         margin-right: 0%;
     }    
@@ -397,7 +390,7 @@ padding-left:10px;
         margin-left: 4%;
         margin-right: 4%;
         width: 98%;
-        height: 800%;
+        height: 620em;
     }
 
     #blog1 #showblog img{
@@ -419,7 +412,7 @@ padding-left:10px;
         margin-left: 4%;
         margin-right: 4%;
         width: 98%;
-        height: 900%;
+        height: 600em;
     
     }
 
@@ -441,7 +434,7 @@ padding-left:10px;
         margin-left: 4%;
         margin-right: 4%;
         width: 98%;
-        height: 900%;
+        height: 630em;
     
     }
 
@@ -462,7 +455,7 @@ padding-left:10px;
         margin-left: 4%;
         margin-right: 4%;
         width: 98%;
-        height: 1100%;
+        height: 670em;
     
     }
 
@@ -483,7 +476,7 @@ padding-left:10px;
         margin-left: 4%;
         margin-right: 4%;
         width: 98%;
-        height: 900%;
+        height: 600em;
     
     }
 
@@ -505,7 +498,7 @@ padding-left:10px;
         margin-left: 4%;
         margin-right: 4%;
         width: 98%;
-        height: 720%;
+        height: 600em;
     }
 
     #blog6 #showblog img{
@@ -525,7 +518,7 @@ padding-left:10px;
         margin-left: 4%;
         margin-right: 4%;
         width: 98%;
-        height: 700%;
+        height: 600em;
     }
 
     #blog7 #showblog img{
@@ -545,7 +538,7 @@ padding-left:10px;
         margin-left: 4%;
         margin-right: 4%;
         width: 98%;
-        height: 1000%;
+        height: 650em;
     }
     
     #blog9{
@@ -553,7 +546,7 @@ padding-left:10px;
         margin-left: 4%;
         margin-right: 4%;
         width: 98%;
-        height: 1500%;
+        height: 770em;
     }
     
     #blog10{
@@ -561,7 +554,7 @@ padding-left:10px;
         margin-left: 4%;
         margin-right: 4%;
         width: 98%;
-        height: 1520%;
+        height: 770em;
     }
     
 
@@ -570,7 +563,7 @@ padding-left:10px;
         margin-left: 4%;
         margin-right: 4%;
         width: 98%;
-        height: 1100%;
+        height: 700em;
     }
 
     h2{
@@ -609,7 +602,7 @@ padding-left:10px;
 
     .section3{
         margin-left: 0%;
-        width: 125%;
+        width: 148%;
     }
     footer{
         
@@ -637,7 +630,7 @@ padding-left:10px;
         margin-right:0px;
         padding-right:120px;
       }
-    }   
+ }   
     
 
     /* mobile view*/
@@ -669,11 +662,11 @@ padding-left:10px;
     }
    
     #navul {
-        width: 172%;
+        width: 238%;
         height: fit-content;
         text-align: center;
         position: sticky;
-        margin-top: 99px;
+        margin-top: 170px;
         margin-left: 0%;
         margin-right: 0%;
     }    
@@ -689,8 +682,9 @@ padding-left:10px;
         margin-top: 10%;
         margin-left: 4%;
         margin-right: 4%;
-        width: 140%;
-        height: 800%;
+        width: 180%;
+        height: 550em;
+        /*height: 800%;*/
     }
 
     #blog1 #showblog img{
@@ -710,8 +704,8 @@ padding-left:10px;
         margin-top: 10%;
         margin-left: 4%;
         margin-right: 4%;
-        width: 140%;
-        height: 900%;
+        width: 200%;
+        height: 620em;
     
     }
 
@@ -732,8 +726,8 @@ padding-left:10px;
         margin-top: 10%;
         margin-left: 4%;
         margin-right: 4%;
-        width: 140%;
-        height: 920%;
+        width: 190%;
+        height: 600em;
     
     }
 
@@ -753,8 +747,8 @@ padding-left:10px;
         margin-top: 10%;
         margin-left: 4%;
         margin-right: 4%;
-        width: 140%;
-        height: 1100%;
+        width: 170%;
+        height: 620em;
     
     }
 
@@ -774,8 +768,8 @@ padding-left:10px;
         margin-top: 10%;
         margin-left: 4%;
         margin-right: 4%;
-        width: 140%;
-        height: 1000%;
+        width: 170%;
+        height: 550em;
     
     }
 
@@ -796,8 +790,8 @@ padding-left:10px;
         margin-top: 10%;
         margin-left: 4%;
         margin-right: 4%;
-        width: 140%;
-        height: 820%;
+        width: 160%;
+        height: 500em;
     }
 
     #blog6 #showblog img{
@@ -816,8 +810,8 @@ padding-left:10px;
         margin-top: 10%;
         margin-left: 4%;
         margin-right: 4%;
-        width: 140%;
-        height: 700%;
+        width: 170%;
+        height: 500em;
     }
 
     #blog7 #showblog img{
@@ -836,24 +830,24 @@ padding-left:10px;
         margin-top: 10%;
         margin-left: 4%;
         margin-right: 4%;
-        width: 140%;
-        height: 1000%;
+        width: 160%;
+        height: 600em;
     }
     
     #blog9{
         margin-top: 10%;
         margin-left: 4%;
         margin-right: 4%;
-        width: 140%;
-        height: 1500%;
+        width: 160%;
+        height: 780em;
     }
     
     #blog10{
         margin-top: 10%;
         margin-left: 4%;
         margin-right: 4%;
-        width: 140%;
-        height: 1520%;
+        width: 160%;
+        height: 780em;
     }
     
 
@@ -861,8 +855,8 @@ padding-left:10px;
         margin-top: 10%;
         margin-left: 4%;
         margin-right: 4%;
-        width: 140%;
-        height: 1100%;
+        width: 160%;
+        height: 680em;
     }
 
     main h2{
@@ -900,7 +894,7 @@ padding-left:10px;
 
     .section3{
         margin-left: 0%;
-        width: 170%;
+        width: 233%;
     }
     footer{
         
@@ -928,4 +922,4 @@ padding-left:10px;
         margin-right:0px;
         padding-right:120px;
       }
-    }   
+}   
