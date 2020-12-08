@@ -7,6 +7,17 @@ body {
     
 }   
 /* css code for upper nav bars*/
+
+.heading1{
+    width: 100%;
+    margin-top:8%;
+    margin-left: 45%;
+    margin-right:0%;
+    margin-top: 0%;
+    background-color: black;
+    color: white;
+    /* padding-left: 250px; */
+}
 .nav1 {
     background-color: black;
     opacity: 100%;
@@ -81,7 +92,7 @@ li a:hover:not(.active) {
     background-repeat: no-repeat;
     background-size: cover;
     left: 200px;
-    top:1975px;
+    top:1990px;
     position: relative;
    
 }
