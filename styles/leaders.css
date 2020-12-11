@@ -100,6 +100,10 @@ body {
       height: 10px;
       width: 40px;
   }
+  li.active a{
+    background-color:#c70039 ;
+  }
+  
   
   /*..content..*/
   p{
@@ -132,8 +136,11 @@ body {
   width:30%;
   height:10%;
 }
-input{
-  height:20%;
+#uname{
+  height:30px;
+}
+#umail{
+  height:30px;
 }
 #submit{
   background-color:#c70039;
@@ -145,8 +152,8 @@ input{
   opacity: 0.9;
   margin-bottom:20px;
   border-radius:8px;
-  
 }
+
   
 
 /*..footer..*/

@@ -1,3 +1,6 @@
+#result{
+  display:none;
+}
 .wrapper{
   display:flex;
 }
@@ -99,6 +102,10 @@ font-size: 15px;
     height: 10px;
     width: 40px;
 }
+li.active a{
+  background-color:#c70039 ;
+}
+
 
 /*..form..*/
 form {
@@ -626,6 +633,8 @@ input[type="submit"]:hover {
   background-color: rgb(51, 51, 51);
   width:90%;
 }
+
+/* footer  */
 footer{
 	display:flex;
 	padding-top:20px;
