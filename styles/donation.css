@@ -8,6 +8,17 @@ flex:1;
 .main{
  flex:6;
 }
+.heading1 {
+  position: fixed;
+  top: 0%;
+  margin-left: 700px;
+  margin-right: 200px;
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
 .main{
   display:flex;
   flex-direction:column;
@@ -29,15 +40,18 @@ label {
   display: inline-block;
 }
 
-input[type=submit] {
+button, input[type=reset] {
   background-color: rgb(255, 183, 50);
   color: white;
   padding: 12px 20px;
-  border: none;
+  border: 1px;
   border-radius: 4px;
   cursor: pointer;
   float: right;
+  margin-right: 5px;
 }
+
+
 
 
 
