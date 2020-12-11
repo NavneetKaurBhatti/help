@@ -25,7 +25,7 @@
         <div class="nav1-right">
             <a href="#Update n notification"><i class="fas fa-bell"></i></a>
             <a href="#search bar"><i class="fas fa-search"></i></a>
-            <a href="#login">LOGIN<i class="fas fa-user-circle"></i></a>
+            <a href="login.html">LOGIN<i class="fas fa-user-circle"></i></a>
         </div>
     </nav><br><br>
     <div class="heading2">
@@ -45,7 +45,7 @@
                 <li> <a href="InfograficsVedios.html">Infographics</a></li>
                 <li> <a href="basefile.html">Data Table</a></li>
                 <li> <a href="guidance.html">Guidelines</a></li>
-                <li> <a href="leaders.html">From President</a></li>
+                <li class="active"> <a href="leaders.html">From President</a></li>
                 <li> <a href="donation.html">Donate Money</a></li>
                 <li> <a href="financialsupport.html">Support</a></li>
                 <li> <a href="iso norms.html">Isolation Norms</a></li>
@@ -132,21 +132,22 @@
 
                 <form>
                     <div class=row>
-                        <label>Your Name*</label><br>
-                        <input type="text" name="name" class="input" id="uname" required>
+                        <label>Your Name</label><br>
+                        <input type="text" name="name" class="input" id="uname" placeholder="Your name" required>
                         <div class="error" id="nameErr"></div>
                     </div><br>
 
                     <div class=row>
-                        <label>Your Email*</label><br>
-                        <input type="text" name="email" class="input" required>
+                        <label>Your Email</label><br>
+                        <input type="text" name="email" class="input" id="umail" placeholder="Your email">
                         <div class="error" id="emailErr"></div>
                     </div><br>
                     <div class="row">
                         <label>Your message</label><br>
-                        <textarea id="words" rows="10" cols="20" class="input">Enter comment</textarea><br><br>
-                        <input type="button" onclick="getwords()" value="Submit Comment" id="submit" />
+                        <textarea id="words" rows="10" cols="20" placeholder="Your message"
+                            class="input"></textarea><br><br>
                     </div>
+                    <input type="button" onclick="getwords()" value="Submit Comment" id="submit" />
                 </form>
             </div>
 
@@ -214,12 +215,24 @@
         function getwords() {
             text = words.value;
             text2 = uname.value;
+            text3 = umail.value;
+            if (text2 == "") {
+                alert("Please enter your name");
 
-            document.getElementById("para").innerHTML += '<h3>' + text2 + ":" + '<p>' + text;
+            }
+            else if (text3 == "") {
+                alert("Please enter your email");
 
-            // document.getElementById("display").innerHTML += '<h3>'+text2
-            document.getElementById("words").value = "enter"
+            }
+            else if (text == "") {
+                alert("Please enter your message");
+
+            }
+            else {
+                document.getElementById("para").innerHTML += '<h3>' + text2 + ":" + '<p>' + text;
+            }
         }
+
     </script>
 
 </body>
