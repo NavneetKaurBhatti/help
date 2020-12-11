@@ -30,6 +30,10 @@ body {
     background-color: #c70039;
 }
 
+.nav1 a.active{
+    background-color: #c70039;
+  }
+
 .nav1-right {
     float: right;
 }
