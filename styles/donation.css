@@ -8,6 +8,13 @@ flex:1;
 .main{
  flex:6;
 }
+
+li.active a{
+   background-color: #c70039;
+
+
+}
+
 .heading1 {
   position: fixed;
   top: 0%;
