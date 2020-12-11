@@ -1,6 +1,9 @@
 body {
     margin: 0;
 }
+li.active a{
+    background-color: #c70039;
+} 
 
 /* css code for nav bar */
 
@@ -407,5 +410,8 @@ main {
         position: relative;
         display: none;
        
+    }
+    .heading1{
+        display:none;
     }
 }

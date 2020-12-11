@@ -5,7 +5,10 @@ body {
     height: 700px;
     width: 80%;
     
-}   
+}  
+li.active a{
+    background-color: #c70039;
+} 
 /* css code for upper nav bars*/
 
 .heading1{
@@ -311,5 +314,8 @@ li a:hover:not(.active) {
         top:1100px;
         position: relative;
         display: none;
+        }
+        .heading1{
+            display:none;
         }
     } 

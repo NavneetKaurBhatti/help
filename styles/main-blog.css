@@ -32,6 +32,9 @@ body {
   color: white;
   background-color: #c70039;
 }
+.nav1 a.active{
+  background-color: #c70039;
+}
 
 .nav1-right {
   float: right;
@@ -74,10 +77,10 @@ body {
   text-decoration: none;
 }
 
-#navul li a.active {
+/*#navul li a.active {
   background-color: #c70039;
   color: white;
-}
+}*/
 
 #navul li a:hover:not(.active) {
   background-color: #c70039;
