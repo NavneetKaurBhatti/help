@@ -10,6 +10,13 @@
   .main{
     display:flex;
     flex-direction:column;
+  }
+    li.active a{
+      background-color: #c70039;
+   
+  }
+  .heading1 a{
+    color: red;
   }body {
       margin: 0;
       overflow-x: hidden;

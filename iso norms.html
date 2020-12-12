@@ -12,7 +12,7 @@
     <title>Isolation Norms</title>
 </head>
 
-<body>
+<body onload="quizload()">
    
     <!--top navbar-->
     <nav class="nav1">
@@ -27,12 +27,12 @@
         <div class="nav1-right">
             <a href="update.html"><i class="fas fa-bell"></i></a>
             <a href="#search bar"><i class="fas fa-search"></i></a>
-            <a href="#login">LOGIN<i class="fas fa-user-circle"></i></a>
+            <a href="login.html">LOGIN<i class="fas fa-user-circle"></i></a>
         </div>
 
          <!-- website heading -->
          <div class="heading1">
-            <h4>CORONA &nbsp;HELP DESK</h4>
+            <a href="homepage.html">CORONA &nbsp;HELP DESK</a>
         </div>
 
     </nav><br><br>
@@ -50,7 +50,7 @@
                 <li> <a href="leaders.html">From President</a></li>
                 <li> <a href="donation.html">Donate Money</a></li>
                 <li> <a href="financialsupport.html">Support</a></li>
-                <li> <a href="iso norms.html">Isolation Norms</a></li>
+                <li class="active"> <a href="iso norms.html">Isolation Norms</a></li>
                 <li> <a href="travel.html">Travel</a></li>
                 <li> <a href="doanddont.html">Do's & Don'ts</a></li>
                 <li> <a href="faq.html">FAQS</a></li>
@@ -201,6 +201,23 @@
         <!--main end-->
     </div>
     <!--wrapper end-->
+<script>
+    var x;
+
+function quizload(){
+
+    x = setTimeout(quiz1,10000);
+}
+
+function quiz1()
+{
+    
+    if (confirm("Answer some simple questions about covid-19")) {
+        window.open('quiz.html');
+        
+      }
+}
+</script>
 
 </body>
 
